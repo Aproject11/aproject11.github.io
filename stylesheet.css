@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero {
+  padding-bottom: 600px;
+  background-image: url("images/barn.jpg");
+  background-size: cover;
+}
+
+.nav a:hover {color:#000000}
+	:visited {color:#00FF00}
+
+li {display: inline-block;
+	padding: 20px; 
+}
+
+h1 { color:#0000FF; text-align: center; }
+
+body {background-color: lightgray; }
+p {text-align: center;} 
+
+aside {align: left;} 
+
+.nav ul { list-style: none; }
+
+<!-- Code for Font changes example from book -->
+
+
+h1 {font-family: 'Palatino Linotype', Palatino,  serif;}
+p {font-family: Helvetica, Arial, sans-serif;}
+
